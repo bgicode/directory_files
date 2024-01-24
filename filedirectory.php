@@ -51,7 +51,7 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Directory Map</h1>
+    <h1><?=$path?></h1>
     <?php
         echo '<div class="DirectoryMap">';
         creatinList($inerDir);
