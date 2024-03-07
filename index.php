@@ -18,7 +18,7 @@ if ($_GET["target"] == 'dir') {
     $arInerDir = InnerDir($path, $hidenDir);
 
     // адресса всех файлов и папок в нужном директории
-    $arFileListPath = FileDirPath($path, $hidenDir); 
+    $arFileListPath = FileDirPath($path, $hidenDir);
 
     // запуск формирования списка файлов и подиректорий
     $arAllStruct = СreatingArray($arInerDir, $arFileListPath, $hidenDir); 
