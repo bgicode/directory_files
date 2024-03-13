@@ -7,7 +7,7 @@ $hidenDir = false;
 function InnerDir($path, $hidenDir)
 {
     if ($hidenDir === false) {
-        $pregForHidenDir = "/^(?!\.)^[^.]/";
+        $pregForHidenDir = "/^(?!\.)|^[^.]/";
     } else {
         $pregForHidenDir = "/[^.]/";
     }

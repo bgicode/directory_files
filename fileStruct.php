@@ -2,13 +2,13 @@
 $arPreStruct = [
     'файл.fg',
     'folder1' => [
-        'dub',
-        'hur.hj',
+        'file.js',
+        'file_4.hj',
         'zur'=> [
             'gupr.jjj',
             'fut' => [
                 'gggg.ho',
-                'jop' => NULL,
+                'empty folder' => NULL,
             ]
         ]
     ],
@@ -16,5 +16,5 @@ $arPreStruct = [
         'fggf',
         'jjjjj.op',
     ],
-    'hiy.dd'
+    'gggggg.dd'
 ];

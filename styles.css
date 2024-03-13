@@ -10,8 +10,7 @@ li {
     list-style: none;
 }
 
-.folderImg {
-    background-image: url(img/folder.png);
+.icon {
     background-size: cover;
     width: 30px;
     height: 30px;
@@ -19,13 +18,16 @@ li {
     float: left;
 }
 
+.folderImg {
+    background-image: url(img/folder.png);    
+}
+
+.folderFileImg {
+    background-image: url(img/folderfile.png);
+}
+
 .fileImg {
     background-image: url(img/file.png);
-    background-size: cover;
-    width: 30px;
-    height: 30px;
-    display: block;
-    float: left;
 }
 
 .name {
